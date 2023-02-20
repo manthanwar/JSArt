@@ -1,0 +1,48 @@
+{
+  "name": "jsart",
+  "version": "1.0.0",
+  "description": "Javascript programming of art",
+  "author": {
+    "name": "Amit M. Manthanwar",
+    "email": "manthanwar@hotmail.com",
+    "url": "https://manthanwar.github.io/"
+  },
+  "license": "SEE LICENSE IN <./pages/license.html>",
+  "private": true,
+  "main": "index.html",
+  "HowToRunScripts": "npm run ScriptName",
+  "scripts": {
+    "lint": "npx eslint --fix scripts/*.js",
+    "jest": "jest",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/manthanwar/JSArt.git"
+  },
+  "keywords": [
+    "Art",
+    "Design",
+    "Drawing",
+    "Graphics",
+    "Pattern",
+    "Geometry",
+    "Flags",
+    "Rangoli",
+    "Kolam",
+    "Mandala",
+    "SVG"
+  ],
+  "bugs": {
+    "url": "https://github.com/manthanwar/JSArt/issues"
+  },
+  "homepage": "https://github.com/manthanwar/JSArt#readme",
+  "devDependencies": {
+    "eslint": "^8.34.0",
+    "eslint-config-standard": "^17.0.0",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-n": "^15.6.1",
+    "eslint-plugin-promise": "^6.1.1",
+    "jest": "^29.4.3"
+  }
+}
