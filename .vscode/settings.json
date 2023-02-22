@@ -1,0 +1,104 @@
+{
+    "metadata": {
+        "file": ".vscode/settings.json",
+        "description": "vscode folder settings",
+        "version": "2023.02.22",
+        "since": "2023.02.22",
+        "author": {
+            "name": "Amit M. Manthanwar",
+            "email": "manthanwar@hotmail.com",
+            "url": "https://manthanwar.github.io/"
+        },
+        "copyright": "(C) 2023 Amit M. Manthanwar",
+        "license": "SEE LICENSE IN ./pages/license.html",
+    },
+
+    "workbench.colorTheme": "Dracula",
+    "files.autoSave": "onFocusChange",
+    "files.eol": "\n",
+    "files.trimTrailingWhitespace": true,
+
+    "files.exclude": {
+        ".git": true,
+        ".gitignore": true,
+        ".vscode": true,
+        ".eslintrc.json": true,
+        "package-lock.json": true,
+        "node_modules": true
+    },
+
+    "files.associations": {
+        "*.thor": "ruby",
+        "*.jsx": "javascript",
+        "Jenkinsfile*": "groovy",
+        "*.md.html": "markdown"
+    },
+
+    "search.exclude": {
+        "**/node_modules": true,
+    },
+
+    // "window.zoomLevel": 0,
+    "terminal.integrated.fontSize": 17,
+    // "terminal.integrated.lineHeight": 1.5,
+    "terminal.integrated.defaultProfile.windows": "Git Bash",
+    "terminal.integrated.cursorBlinking": true,
+    "terminal.integrated.cursorStyle": "line",
+    // "terminal.integrated.cursorWidth": 2,
+
+    "editor.tabSize": 2,
+    "editor.fontSize": 17,
+    // "editor.lineHeight": 20,
+
+    "editor.formatOnSave": true,
+    "editor.formatOnPaste": true,
+    "editor.formatOnType": true,
+    "editor.formatOnSaveMode": "modifications",
+
+    // "editor.cursorWidth": 2,
+    "editor.cursorBlinking": "solid",
+
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": true,
+        "source.fixAll.tslint": true
+    },
+
+
+
+    "liveServer.settings.donotShowInfoMsg": true,
+
+    "[plaintext]": {
+        "files.insertFinalNewline": false
+    },
+    "[html]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+    },
+    "[css]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[json]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[jsonc]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+
+
+    "html.format.wrapAttributes": "force-aligned",
+    "json.format.keepLines": true,
+
+    "prettier.singleQuote": true,
+    "prettier.jsxSingleQuote": true,
+    "prettier.semi": true,
+    "prettier.trailingComma": "none",
+    "prettier.printWidth": 100,
+    "prettier.singleAttributePerLine": true,
+
+    "eslint.validate": [
+        "javascript"
+    ],
+
+
+
+
+}

@@ -33,6 +33,7 @@
  * @param {String} type - type of chart
  * @param {element} parent - DOM element of html to attach to
  */
+
 export class Chart {
   // #NL;
   // #NS;

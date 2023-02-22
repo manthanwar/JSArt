@@ -7,7 +7,7 @@
     "email": "manthanwar@hotmail.com",
     "url": "https://manthanwar.github.io/"
   },
-  "license": "SEE LICENSE IN <./pages/license.html>",
+  "license": "SEE LICENSE IN ./pages/license.html",
   "private": true,
   "main": "index.html",
   "HowToRunScripts": "npm run ScriptName",

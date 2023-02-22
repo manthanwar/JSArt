@@ -1,15 +1,15 @@
 /**
  * @file main js file
- * @Version 1.1.1
- * @Description creates svg art
+ * @version 2023.02.22
+ * @description creates svg art
  * @author Amit M. Manthanwar <manthanwar@hotmail.com>
- * @Copyright 2023 Amit M. Manthanwar
- * @since 2023
- * @license UNLICENSED
+ * @copyright 2023 Amit M. Manthanwar
+ * @since 2023.02.20
+ * @license SEE LICENSE IN ./pages/license.html
  *
  */
 
-import * as imp from './drawSvgClass.js';
+import * as imp from './svg.js';
 
 window.addEventListener('load', onLoad);
 
